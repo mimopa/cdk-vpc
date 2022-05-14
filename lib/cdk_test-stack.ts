@@ -17,7 +17,7 @@ export class CdkTestStack extends Stack {
         /**
      * VPC LambdaFunctionUrlsVpc
      */
-    // const vpc = new ec2.Vpc(this, 'HandsonVpc', { cidr: '10.10.0.0/16 '});
+    // const vpc = new ec2.Vpc(this, 'HandsonVpc', { cidr: '10.10.0.0/16' });
     const vpc = new ec2.Vpc(this, 'HandsonVpc', {
     vpcName: '01997041-handson',
     cidr : '10.10.0.0/16',
